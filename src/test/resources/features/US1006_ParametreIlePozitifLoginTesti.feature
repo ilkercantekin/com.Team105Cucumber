@@ -1,6 +1,6 @@
 
 Feature: US1006 Kullanici configuration dosyasindaki bilgilerle login olabilmeli
-
+@smoke
   Scenario: TC12 Gecerli kullanici adi ve sifre ile Pozitif Login Testi
 
     Given kullanici "qdUrl" ana sayfaya gider

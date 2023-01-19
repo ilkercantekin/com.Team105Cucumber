@@ -5,13 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce1eac02-b505-4ca1-8dc9-b0304422cb13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/pc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/EditorPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HerokuappPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WebUniversityPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/ParalelRunner1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/ParalelRunner2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/EditorStepdefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HerokuappStepdefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/WebUniversityStepdefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1008_ScenarioOutline.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1009_YanlisKullaniciListesiIleNegativeLoginTesti.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1010_EditorsayfasindaKayitOlusturma.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1011_HerokuappWaitTesti.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1012_WebDriverUniversityTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/QualitydemyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/QualitydemyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/AmazonStepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/AmazonStepdefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/QualitydemyStepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/QualitydemyStepdefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1003_ParametreileCokluArama.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1003_ParametreileCokluArama.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1004_BackgroundKullanimi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1004_BackgroundKullanimi.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1005_ConfigurationPropertiesdenParametreKullanma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1005_ConfigurationPropertiesdenParametreKullanma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1006_ParametreIlePozitifLoginTesti.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1006_ParametreIlePozitifLoginTesti.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1007_ParametreliNegatifLoginTesti.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1007_ParametreliNegatifLoginTesti.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -52,14 +74,26 @@
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pc/Desktop/com.team105Cucumber/src/test/java/pages&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.Runner">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\com.team105Cucumber\src\test\java\utilities" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="runners" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Feature: US1014_Automationexercise">
     <configuration name="Feature: US1001_amazonSearchTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1001_amazonSearchTest.feature" />
@@ -78,44 +112,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="MakeProject" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: US1005_ConfigurationPropertiesdenParametreKullanma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1005_ConfigurationPropertiesdenParametreKullanma.feature" />
-      <option name="GLUE" value="stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="com.team105Cucumber" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US1005_ConfigurationPropertiesdenParametreKullanma" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: US1006_ParametreIlePozitifLoginTesti" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1006_ParametreIlePozitifLoginTesti.feature" />
-      <option name="GLUE" value="stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="com.team105Cucumber" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US1006_ParametreIlePozitifLoginTesti" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Feature: US1007_ParametreliNegatifLoginTesti" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -137,15 +133,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC01 Kullanici amazonda Nutella aratir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: US1012_WebDriverUniversityTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1001_amazonSearchTest.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1012_WebDriverUniversityTest.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.team105Cucumber" />
-      <option name="NAME_FILTER" value="^TC01 Kullanici amazonda Nutella aratir$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 Kullanici amazonda Nutella aratir$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC01 Kullanici amazonda Nutella aratir" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US1012_WebDriverUniversityTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: US1014_Automationexercise" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1014_Automationexercise.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="com.team105Cucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US1014_Automationexercise" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC19 Kullanici automation excercise sayfasinda kullanici olusturabilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1014_Automationexercise.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="com.team105Cucumber" />
+      <option name="NAME_FILTER" value="^TC19 Kullanici automation excercise sayfasinda kullanici olusturabilmeli$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC19 Kullanici automation excercise sayfasinda kullanici olusturabilmeli$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC19 Kullanici automation excercise sayfasinda kullanici olusturabilmeli" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -174,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: US1014_Automationexercise" />
+        <item itemvalue="Cucumber Java.Scenario: TC19 Kullanici automation excercise sayfasinda kullanici olusturabilmeli" />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: US1007_ParametreliNegatifLoginTesti" />
-        <item itemvalue="Cucumber Java.Feature: US1006_ParametreIlePozitifLoginTesti" />
-        <item itemvalue="Cucumber Java.Feature: US1005_ConfigurationPropertiesdenParametreKullanma" />
-        <item itemvalue="Cucumber Java.Scenario: TC01 Kullanici amazonda Nutella aratir" />
+        <item itemvalue="Cucumber Java.Feature: US1012_WebDriverUniversityTest" />
       </list>
     </recent_temporary>
   </component>

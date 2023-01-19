@@ -3,6 +3,7 @@ Feature: US1004 Kullanici bastaki ortak adimlar icin Background kullanir
 
   Background: Tum scnario'lar icin ortak ilk adim
     Given kullanici amazon ana sayfaya gider
+    @p2
   Scenario: TC06 Kullanici Parametreli metod ile Nutella aratir
 
 

@@ -7,6 +7,7 @@ Feature: US1005 Kullanici configuration.properties'de yazilan datalari parametre
   # Bu durumda stepdefinition'da yolladigimiz key ile
   # ConfigReader'daki getProperty() kullanilip
   # configuration.properties dosyasindaki value testte kullanilabilir
+
   Scenario: TC09 Kullanici amazon sitesine gidisi test eder
     Given kullanici "amazonUrl" ana sayfaya gider
     Then url de "amazon" oldugunu test eder

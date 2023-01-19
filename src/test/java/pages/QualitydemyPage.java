@@ -26,4 +26,7 @@ public class QualitydemyPage {
 
     @FindBy(xpath = "//*[text()='Accept']")
     public WebElement acceptButonu;
+
+    @FindBy(xpath = "//a[text()='Accept']")
+    public WebElement cookie;
 }

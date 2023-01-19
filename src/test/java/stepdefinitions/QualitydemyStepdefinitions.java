@@ -1,6 +1,7 @@
 package stepdefinitions;
 
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pages.QualitydemyPage;
@@ -35,4 +36,28 @@ public class QualitydemyStepdefinitions {
     public void basariliGirisYapilamadiginiTestEder() {
         Assert.assertTrue(qualitydemyPage.passwordKutusu.isDisplayed());
     }
-}
+
+
+    @And("kullanici kutusuna manuel olarak {string} yazar")
+    public void kullaniciKutusunaManuelOlarakYazar(String username) {
+        qualitydemyPage.kullaniciEmailKutusu.sendKeys(username);
+    }
+
+    @And("password kutusuna manuel olarak {string} yazar")
+    public void passwordKutusunaManuelOlarakYazar(String password) {
+        qualitydemyPage.passwordKutusu.sendKeys(password);
+    }
+
+    @And("giris yapilamadigini test eder")
+    public void girisYapilamadiginiTestEder() {
+        Assert.assertTrue(qualitydemyPage.passwordKutusu.isDisplayed());
+    }
+
+    @Then("cookie cikarsa kabul eder")
+    public void cookieCikarsaKabulEder() {
+            if (qualitydemyPage.cookie.isDisplayed()){
+                qualitydemyPage.cookie.click();
+            }
+        }
+    }
+

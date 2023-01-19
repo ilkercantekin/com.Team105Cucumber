@@ -1,4 +1,4 @@
-@wip
+
   Feature: US1007 Kullanici yanlis bilgilerle giris yapamaz
 
     Scenario: TC13 Gecerli kullanici adi ve gecersiz sifre ile Negative Login Testi
